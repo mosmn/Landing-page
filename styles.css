@@ -72,3 +72,18 @@ button {
     border-radius: 6px;
     padding: 10px;
 }
+
+/* Section 2 */
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
