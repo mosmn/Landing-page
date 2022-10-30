@@ -1,0 +1,33 @@
+body {
+    background: rgb(197, 175, 84);
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+}
+
+h1 {
+    font-family: choplin;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+ul {
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
