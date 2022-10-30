@@ -1,11 +1,19 @@
-/* Section 1 */
 body {
-    background: rgb(197, 175, 84);
-    color: #000;
+    width: 700px
+    min-height: 500px;
+    background: linear-gradient(
+      to bottom,
+      rgb(197, 175, 84) 0%,
+      rgb(197, 175, 84) 60%,
+      rgb(211, 195, 130) 50%,
+      rgb(211, 195, 130) 100%
+    );
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-size: 14px;   
 }
+
+/* Section 1 */
+
 .header {
     display: flex;
     justify-content: space-between;
