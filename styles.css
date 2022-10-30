@@ -47,7 +47,7 @@ a {
     margin-top: -100px;
 }
 
-img {
+.mainimg {
     width: 700px;
     height: 600px;
 }
@@ -75,15 +75,12 @@ button {
 
 /* Section 2 */
 
-.section2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    margin: 15px;
+.info {
+    background-color:rgb(193, 176, 110);
+    margin: -10px;
 }
 
-h3 {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+img {
+    width: 200px;
+    height: 200px;
 }
