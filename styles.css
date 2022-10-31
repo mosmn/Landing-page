@@ -1,19 +1,11 @@
-body {
-    width: 700px
-    min-height: 500px;
-    background: linear-gradient(
-      to bottom,
-      rgb(197, 175, 84) 0%,
-      rgb(197, 175, 84) 60%,
-      rgb(211, 195, 130) 50%,
-      rgb(211, 195, 130) 100%
-    );
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;   
-}
-
 /* Section 1 */
-
+body {
+    background: rgb(197, 175, 84);
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -128,6 +120,35 @@ img {
 
 h3 {
     font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* Section 3 */
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(177, 171, 147);
+    margin: -15px;
+    padding: 100px;
+}
+
+.testimonial {
+    margin: 20px 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 8px solid rgb(197, 175, 84);
+    padding: 40px;
+}
+
+.name {
+    text-align: right;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
